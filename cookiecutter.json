@@ -1,0 +1,7 @@
+{
+  "project_name": "My Python Project",
+  "project_slug": "my_python_project",
+  "author_name": "David Thompson",
+  "email": "david@the-thompsons.com",
+  "python_version": "3.12.2"
+}

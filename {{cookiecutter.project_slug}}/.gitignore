@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+# Poetry virtualenvs (if configured outside the project)
+# Can also live in ~/.cache/pypoetry
+.python-version
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+test-results/
+
+# Pyre type checker
+.pyre/
+
+# Pytype
+.pytype/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# VS Code settings and launch configs
+.vscode/
+
+# pre-commit
+.pre-commit-config.yaml
+.pre-commit-hooks.yaml
+
+# Bandit security scan
+bandit.yaml
+
+# Local test environments
+.env
+.env.*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Mac stuff
+.DS_Store
+
+# Logs
+*.log
+
+# Cookiecutter junk
+*cookiecutter.json
+*~/
+
+# Others
+*.swp
+*.bak
+*.tmp
+
+# Ignore local poetry lockfile if managed externally
+poetry.lock
+
+# Notes:
+# - If you're committing `poetry.lock`, you might want to remove the last line.
+# - If you use `.venv` inside your project (which Poetry can do), make sure `.venv/` is ignored.
+# - If you plan to publish to PyPI, `*.egg-info/`, `dist/`, and `build/` should be excluded.
