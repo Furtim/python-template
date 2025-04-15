@@ -15,17 +15,17 @@ install:
 	poetry install
 
 format:
-	poetry run isort src/mot
-	poetry run black src/mot
+	poetry run isort src/{{ cookiecutter.project_slug }}
+	poetry run black src/{{ cookiecutter.project_slug }}
 
 lint:
-	poetry run flake8 src/mot
+	poetry run flake8 src/{{ cookiecutter.project_slug }}
 
 typecheck:
-	poetry run mypy src/mot
+	poetry run mypy src/{{ cookiecutter.project_slug }}
 
 security:
-	poetry run bandit -ll -q -r src/mot
+	poetry run bandit -ll -q -r src/{{ cookiecutter.project_slug }}
 
 test:
 	poetry run pytest tests
