@@ -156,4 +156,4 @@ This prints the path to the Python binary used by Poetry, confirming it's using 
 
 ## ✅ You're ready!
 
-Happy coding! You can now start building your project with a clean, modern Python setup.
+Happy coding! 
