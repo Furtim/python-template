@@ -80,6 +80,7 @@ bandit.yaml
 # Local test environments
 .env
 .env.*
+.envrc
 
 # Jupyter Notebook
 .ipynb_checkpoints
